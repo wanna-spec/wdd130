@@ -13,11 +13,11 @@ h1 {
     color: darkblue;
 }
 
-img{
+img {
     width: 150px;
     height: auto;
     border: 1px solid black;
-    padding: 2px;
+    padding: 1px;
     box-shadow: 0 0 30px gray;
 }
 
