@@ -1,0 +1,43 @@
+:root {
+    --primary-color: #123D35;
+    --secondary-color: #267C78;
+    --accent1-color: #E5B85C;
+    --accent2-color: #78b7b0;
+    --heading-font: "Montserrat ExtraBold";
+    --body-font: "Open Sans Regular";
+}
+
+header {
+    background-color: var(--primary-color);
+    color: var(--accent1-color);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--body-font);
+    color: (var(--accent2-color));
+}
+
+header, main, footer {
+    width: 840px;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+nav, p, section, article {
+    margin: 16px;
+    padding: 8px;
+}
+
+.socialmedia a {
+    text-decoration: none;
+}
