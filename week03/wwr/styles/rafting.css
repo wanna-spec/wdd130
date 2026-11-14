@@ -33,11 +33,6 @@ header, main, footer {
     margin: 0 auto;
 }
 
-h1 {
-    font-family: var(--heading-font);
-    color: #FFFFFF;
-}
-
 h2 {
     font-family: var(--heading-font);
     color: #FFFFFF;
@@ -53,8 +48,8 @@ nav, p, section, article {
 
 .socialmedia a {
     text-decoration: none;
-    margin: 4px;
-    padding: 4px;
+    margin: 0;
+    padding: 0;
 }
 
 .hero {
@@ -76,6 +71,7 @@ h1 {
     opacity: 0.7;
     background-color: var(--primary-color);
     color: #FFFFFF;
+    font-family: var(--heading-font);
 }
 
 .hero article {
@@ -100,7 +96,8 @@ h1 {
 footer {
     background-color: var(--primary-color);
     color: #FFFFFF;
-    padding: 5px 10px;
+    padding: 8px 10px;
+
 }
 
 footer a {
@@ -109,10 +106,11 @@ footer a {
 
 footer p, footer nav {
     margin: 0;
-    padding: 3px;
+    padding: 2px;
 }
 
 .socialmedia img {
-    width: 28px;
-    height: auto;
+    display: block;
+    width: 24px;
+    height: 24px;
 }
