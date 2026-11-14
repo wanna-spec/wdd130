@@ -1,10 +1,22 @@
 :root {
-    --primary-color: #17364A;
-    --secondary-color: #56BCE8;
-    --accent1-color: #D9473F;
-    --accent2-color: #eaf7fc;
+    --primary-color: #0F3D5E;
+    --secondary-color: #2d5a27;
+    --accent1-color: #00a896;
+    --accent2-color: #ff6b35;
     --heading-font: "Montserrat", sans-serif;
     --body-font: "Open Sans", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--body-font);
+    background-color: #f4f7f6;
+    color: var(--secondary-color)
 }
 
 header {
@@ -14,18 +26,8 @@ header {
 }
 
 header nav a {
-    color: var(--primary-color);
+    color: var(--accent1-color);
     text-decoration: none;
-}
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: var(--body-font);
-    color: #333333;
 }
 
 header, main, footer {
@@ -35,7 +37,7 @@ header, main, footer {
 
 h2 {
     font-family: var(--heading-font);
-    color: #FFFFFF;
+    color: var(--accent2-color)
     background-color: var(--primary-color);
     text-align: center;
     padding: 12px;
