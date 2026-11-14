@@ -94,8 +94,9 @@ h1 {
 }
 
 footer {
-    color: #FFFFFF;
+    color: black;
     padding: 8px 10px;
+
 }
 
 footer p, footer nav {
