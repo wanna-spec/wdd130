@@ -94,14 +94,8 @@ h1 {
 }
 
 footer {
-    background-color: var(--primary-color);
     color: #FFFFFF;
     padding: 8px 10px;
-
-}
-
-footer a {
-    color: #FFFFFF;
 }
 
 footer p, footer nav {
