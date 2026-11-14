@@ -3,15 +3,19 @@
     --secondary-color: #267C78;
     --accent1-color: #E5B85C;
     --accent2-color: #78b7b0;
-    --heading-font: "Montserrat ExtraBold";
-    --body-font: "Open Sans Regular";
+    --heading-font: "Montserrat", sans-serif;
+    --body-font: "Open Sans", sans-serif;
 }
 
 header {
     background-color: var(--primary-color);
-    color: var(--accent1-color);
+    color: #FFFFFF;
 }
 
+header nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
 * {
     margin: 0;
     padding: 0;
@@ -20,7 +24,7 @@ header {
 
 body {
     font-family: var(--body-font);
-    color: (var(--accent2-color));
+    color: var(--accent2-color);
 }
 
 header, main, footer {
@@ -59,8 +63,8 @@ h1 {
     padding: 16px;
     text-align: center;
     opacity: 0.7;
-    background-color: var(--accent1-color);
-    color: #fff;
+    background-color: var(--primary-color);
+    color: #FFFFFF;
 }
 
 .hero article {
