@@ -28,7 +28,7 @@ body {
     color: #333333;
 }
 
-header, main, footer {
+header, main, {
     width: 840px;
     margin: 0 auto;
 }
@@ -100,7 +100,7 @@ h1 {
 footer {
     background-color: var(--primary-color);
     color: #FFFFFF;
-    padding: 8px 16px;
+    padding: 5px 10px;
     margin: 0 auto;
 }
 
@@ -108,9 +108,9 @@ footer a {
     color: #FFFFFF;
 }
 
-footer p {
-    margin: 4px;
-    padding: 4px;
+footer p, footer nav {
+    margin: 0;
+    padding: 3px;
 }
 
 .socialmedia img {
