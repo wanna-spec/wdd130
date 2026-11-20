@@ -45,12 +45,12 @@ a:focus-visible {
 /* ---Header--- */
 header {
     display: grid;
-    grid-template-columns: 35% 65%;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
     gap: 24px;
     background-color: var(--primary-color) !important;
     color: #FFFFFF;
-    padding: 14px 32px;
+    padding: 16px 40px;
     border-bottom: 4px solid var(--accent1-color);
 }
 
@@ -71,7 +71,7 @@ header nav {
 
 header nav ul {
     width: 100%;
-    max-width: 440px;
+    max-width: 520px;
     list-style: none;
     display: flex;
     align-items: center;
@@ -93,7 +93,7 @@ header nav a {
     display: block;
     width: 100%;
     text-align: center;
-    padding: 7px 10px;
+    padding: 8px 12px;
     font-size: 0.85rem;
     white-space: nowrap;
     color: #FFFFFF !important;
