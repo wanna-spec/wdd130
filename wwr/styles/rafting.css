@@ -153,13 +153,13 @@ h2 {
 .hero-caption {
     position: absolute;
     bottom: 24px;
-    left: 32px;
+    left: 60px;
     right: 60px;
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    gap: 28px;
-    padding: 20px 64px 20px 36px;
+    gap: 32px;
+    padding: 20px 36px;
     background-color: rgba(47, 60, 79, 0.92);
     color: #FFFFFF;
     border-left: 5px solid var(--accent1-color);
@@ -173,9 +173,10 @@ h2 {
 }
 
 .hero-caption img {
-    width: 100px;
-    height: 85px;
+    width: 90px;
+    height: 110px;
     object-fit: cover;
+    flex-shrink: 0;
     border: 1px solid var(--accent1-color);
 }
 /* 
