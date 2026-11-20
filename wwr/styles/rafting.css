@@ -38,6 +38,7 @@ header {
     align-items: center;
     gap: 24px;
     background-color: (--primary-color);
+    color: #FFFFFF;
     padding: 12px 24px;
     border-bottom: 4px solid var(--accent1-color);
 }
@@ -48,20 +49,34 @@ header img {
     display: block;
 }
 
+header, main, footer {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
 /* ---Nav--- */
+header nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
 header nav ul {
     list-style: none;
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
     align-items: center;
     gap: 8px;
+    margin: 0;
+    padding: 0;
 }
 
 header, nav a {
     display: block;
     padding: 8px 16px;
     white-space: nowrap;
-    color: var(--primary-color);
+    color: #FFFFFF;
     font-family: var(--heading-font);
     font-weight: 700;
     text-decoration: none;
