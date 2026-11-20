@@ -22,6 +22,11 @@ body {
     padding: 16px;
 }
 
+header, main, footer {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
 img {
     max-width: 100%;
 }
@@ -34,12 +39,12 @@ a:focus-visible {
 /* ---Header--- */
 header {
     display: grid;
-    grid-template-columns: 150px 1fr;
+    grid-template-columns: 1fr auto;
     align-items: center;
     gap: 24px;
     background-color: (--primary-color);
     color: #FFFFFF;
-    padding: 12px 24px;
+    padding: 14px 32px 14px 64px;
     border-bottom: 4px solid var(--accent1-color);
 }
 
@@ -49,27 +54,19 @@ header img {
     display: block;
 }
 
-header, main, footer {
-    max-width: 840px;
-    margin: 0 auto;
-}
-
 /* ---Nav--- */
 header nav {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    margin: 0;
-    padding: 0;
 }
+
 header nav ul {
     list-style: none;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    gap: 8px;
-    margin: 0;
-    padding: 0;
+    gap: 12px;
 }
 
 header, nav a {
@@ -91,7 +88,7 @@ header nav a:hover, header nav a:focus-visible {
 
 /* ---main and headings--- */
 main {
-    margin: 16px 0;
+    margin: 16px auto;
 }
 
 h2 {
