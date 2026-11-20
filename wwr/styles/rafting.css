@@ -44,12 +44,13 @@ a:focus-visible {
 /* ---Header--- */
 header {
     display: grid;
-    grid-template-columns: 1fr auto;
+    grid-template-columns: auto auto;
+    justify-content: center;
     align-items: center;
-    gap: 32px;
+    gap: 28px;
     background-color: var(--primary-color) !important;
     color: #FFFFFF;
-    padding: 16px 48px;
+    padding: 16px 32px;
     border-bottom: 4px solid var(--accent1-color);
 }
 
@@ -57,15 +58,12 @@ header img {
     width: 120px;
     height: auto;
     display: block;
-    justify-self: center;
 }
 
 /* ---Nav--- */
 header nav {
     display: flex;
-    justify-content: flex-start;
     align-items: center;
-    margin-right: 40px;
 }
 
 header nav ul {
