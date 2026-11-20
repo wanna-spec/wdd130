@@ -23,13 +23,14 @@ body {
 }
 
 header, main, footer {
-    max-width: 100%;
-    width: 100%;
+    max-width: 960px;
+    width: 95%;
     margin: 0 auto;
 }
 
 main {
-    margin: 16px 32px;
+    margin: 16px auto;
+    padding: 0;
 }
 
 img {
@@ -44,17 +45,17 @@ a:focus-visible {
 /* ---Header--- */
 header {
     display: grid;
-    grid-template-columns: 42% 58%;
+    grid-template-columns: 35% 65%;
     align-items: center;
     gap: 24px;
     background-color: var(--primary-color) !important;
     color: #FFFFFF;
-    padding: 18px 48px;
+    padding: 16px 32px;
     border-bottom: 4px solid var(--accent1-color);
 }
 
 header img {
-    width: 130px;
+    width: 110px;
     height: auto;
     display: block;
     margin: 0 auto;
@@ -153,13 +154,13 @@ h2 {
 .hero-caption {
     position: absolute;
     bottom: 24px;
-    left: 60px;
-    right: 60px;
+    left: 48px;
+    right: 48px;
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    gap: 32px;
-    padding: 20px 36px;
+    gap: 28px;
+    padding: 18px 28px;
     background-color: rgba(47, 60, 79, 0.92);
     color: #FFFFFF;
     border-left: 5px solid var(--accent1-color);
@@ -168,13 +169,13 @@ h2 {
 
 .hero-caption p {
     flex: 1;
-    font-size: 1.15rem;
+    font-size: 0.95rem;
     line-height: 1.5;
 }
 
 .hero-caption img {
-    width: 90px;
-    height: 110px;
+    width: 85px;
+    height: 105px;
     object-fit: cover;
     flex-shrink: 0;
     border: 1px solid var(--accent1-color);
@@ -206,21 +207,22 @@ main, .site-header, .site-footer {
 
 .history-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 200px 1fr;
     gap: 24px;
     align-items: center;
-    padding: 20px 24px 0;
+    padding: 20px 28px 0;
 }
 
 .history-grid img {
     width: 100%;
-    height: auto;
+    height: 140px;
+    object-fit: cover;
     border: 2px solid var(--secondary-color);
 }
 
 .history-grid p {
-    font-size: 1.15rem;
-    line-height: 1.6;
+    font-size: 0.95rem;
+    line-height: 1.5;
 }
 
 /* Adventures section */
@@ -233,30 +235,30 @@ main, .site-header, .site-footer {
 .adventures-grid {
     display: grid;
     grid-template-columns: repeat(5,1fr);
-    gap: 14px;
-    padding: 20px 24px 0;
+    gap: 18px;
+    padding: 20px 28px 0;
 }
 
 .adventures figure {
-    background-color: #f4f6f8;
-    border: 1px solid var(--secondary-color);
+    background-color: transparent;
+    border: none;
     text-align: center;
 }
 
 .adventures figure img {
     width: 100%;
-    aspect-ratio: 4 / 3;
+    aspect-ratio: 1 / 1;
     object-fit: cover;
     display: block;
-    border-bottom: 2px solid var(--accent1-color);
+    border-bottom: 1px solid var(--accent1-color);
 }
 
 .adventures figcaption {
     font-family: var(--heading-font);
-    font-size: 0.8rem;
+    font-size: 0.85rem;
     font-weight: 700;
     color: var(--primary-color);
-    padding: 8px 4px;
+    padding: 8px;
 }
 
 /* .site-header, .hero, .history, .adventure, .site-footer {
