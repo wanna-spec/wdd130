@@ -57,13 +57,13 @@ header img {
     width: 120px;
     height: auto;
     display: block;
-    justify-self: start;
+    justify-self: center;
 }
 
 /* ---Nav--- */
 header nav {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
 }
 
