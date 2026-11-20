@@ -1,8 +1,8 @@
 :root {
-    --primary-color: #0F3D5E;
-    --secondary-color: #2d5a27;
-    --accent1-color: #00a896;
-    --accent2-color: #ff6b35;
+    --primary-color: #2f3c4f;
+    --secondary-color: #506f68;
+    --accent1-color: #fbb040;
+    --accent2-color: #de703c;
     --heading-font: "Montserrat", sans-serif;
     --body-font: "Open Sans", sans-serif;
 }
@@ -26,7 +26,8 @@ header {
 }
 
 header nav a {
-    color: var(--accent1-color);
+    background-color: var(--accent1-color);
+    color: var(--primary-color);
     text-decoration: none;
 }
 
