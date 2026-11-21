@@ -68,7 +68,7 @@ header nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 0;
+    margin-right: 48px;
 }
 
 header nav ul {
