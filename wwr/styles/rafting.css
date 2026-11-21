@@ -4,6 +4,8 @@
     --secondary-color: #506f68;
     --accent1-color: #fbb040;
     --accent2-color: #de703c;
+    --hero-overlay: rgba(47, 60, 79, 0.85);
+    --hero-box-bg: rgba(47, 60, 79, 0.92);
     --heading-font: "Montserrat", Arial, sans-serif;
     --body-font: "Open Sans", Arial, sans-serif;
 }
@@ -23,14 +25,9 @@ body {
 }
 
 header, main, footer {
-    max-width: 1280px;
-    width: 95%;
+    max-width: 1100px;
+    width: 92%;
     margin: 0 auto;
-}
-
-main {
-    margin: 16px auto;
-    padding: 0;
 }
 
 img {
@@ -146,23 +143,19 @@ h2 {
     padding: 16px;
     text-align: center;
     opacity: 0.7;
-    background-color: rgba(47, 60, 79, 0.85);
+    background-color: var(--hero-overlay);
     color: #FFFFFF;
     font-family: var(--heading-font);
     border-bottom: 3px solid var(--accent2-color);
 }
 
-.hero-caption {
+.hero article {
     position: absolute;
     bottom: 24px;
-    left: 48px;
-    right: 48px;
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    gap: 28px;
-    padding: 18px 28px;
-    background-color: rgba(47, 60, 79, 0.92);
+    left: 60px;
+    right: 60px;
+    padding: 20px 64px;
+    background-color: var(--hero-box-bg);
     color: #FFFFFF;
     border-left: 5px solid var(--accent1-color);
     border-radius: 4px;
@@ -174,25 +167,14 @@ h2 {
     line-height: 1.5;
 }
 
-.hero-caption img {
-    width: 85px;
-    height: 105px;
+.hero article img {
+    float: right;
+    width: 100px;
+    height: 85px;
     object-fit: cover;
-    flex-shrink: 0;
+    margin-left: 24px;
     border: 1px solid var(--accent1-color);
 }
-/* 
-
-main, .site-header, .site-footer {
-    max-width: 1000px;
-    margin: 0 auto;
-}
-
-.socialmedia a {
-    text-decoration: none;
-    margin: 0;
-    padding: 0;
-} */
 
 /* History section */
 .history {
@@ -241,7 +223,7 @@ main, .site-header, .site-footer {
 }
 
 .adventures figure {
-    background-color: transparent;
+    background-color: #FFFFFF;
     border: none;
     text-align: center;
 }
@@ -261,11 +243,6 @@ main, .site-header, .site-footer {
     color: var(--primary-color);
     padding: 8px;
 }
-
-/* .site-header, .hero, .history, .adventure, .site-footer {
-    width: 100%;
-    margin: 0 0 16px;
-} */
 
 /* ---footer--- */
 footer {
