@@ -45,7 +45,7 @@ a:focus-visible {
 /* ---Header--- */
 header {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 0.75fr 1.75fr;
     align-items: center;
     gap: 24px;
     background-color: var(--primary-color);
@@ -67,7 +67,7 @@ header nav {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    margin-left: 16px;
+    margin-left: 0;
 }
 
 header nav ul {
