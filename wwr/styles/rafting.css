@@ -58,7 +58,8 @@ header img {
     width: 110px;
     height: auto;
     display: block;
-    margin: 0 auto;
+    justify-self: end;
+    margin-right: 48px;
 }
 
 /* ---Nav--- */
