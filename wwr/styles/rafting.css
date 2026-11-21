@@ -48,7 +48,7 @@ header {
     grid-template-columns: 1fr 1fr;
     align-items: center;
     gap: 24px;
-    background-color: var(--primary-color) !important;
+    background-color: var(--primary-color);
     color: #FFFFFF;
     padding: 16px 40px;
     border-bottom: 4px solid var(--accent1-color);
@@ -65,8 +65,9 @@ header img {
 header nav {
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+    margin-left: 16px;
 }
 
 header nav ul {
@@ -96,7 +97,7 @@ header nav a {
     padding: 8px 12px;
     font-size: 0.85rem;
     white-space: nowrap;
-    color: #FFFFFF !important;
+    color: #FFFFFF;
     background-color: var(--secondary-color);
     font-family: var(--heading-font);
     font-weight: 700;
@@ -105,8 +106,8 @@ header nav a {
 }
 
 header nav a:hover, header nav a:focus-visible {
-    background-color: var(--accent1-color) !important;
-    color: var(--primary-color) !important;
+    background-color: var(--accent1-color);
+    color: var(--primary-color);
 }
 
 /* ---main and headings--- */
