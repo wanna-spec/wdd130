@@ -1,50 +1,58 @@
-<link rel="stylesheet" href="styles/poll-form.css">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Poll Form</title>
+    <link rel="stylesheet" href="styles/poll-form.css">
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Contact Information</legend>
+            <div class="form-item label-narrow">
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname" required>
+            </div>
+            <div class="form-item label-narrow">
+            <label for="useremail">Email:</label>
+            <input type="email" id="useremail" name="useremail" required>
+            </div>
+        </fieldset>
 
-<form>
     <fieldset>
-        <legend>Contact Information</legend>
-        <label for="fullname">Full Name:</label>
-        <input type="text" id="fullname" name="fullname" required>
-        <label for="useremail">Email:</label>
-        <input type="email" id="useremail" name="useremail" required>
+        <legend>Questions</legend>
+        <div class="form-item">
+            <label for="quantity">Select Quantity</label>
+            <select name="quantity" id="quantity">
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+            </select>
+        </div>
+
+        <div class="form-item">
+            <label for="browser">What is your favorite internet browser?</label>
+            <select id="browser" name="browser">
+                <option value="chrome">Chrome</option>
+                <option value="firefox">Firefox</option>
+                <option value="edge">Edge</option>
+                <option value="brave">Brave</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+
+        <div class="form-item">
+            <label for="pet">Do you have a household pet?</label>
+            <input type="checkbox" id="pet" name="pet">
+        </div>
+        
+        <div class="form-item">
+            <label for="places">List the places you have lived:</label>
+            <textarea id="places" name="places" rows="4" placeholder="Stillwater Florida, Amsterdam Netherlands, Timbuktu  Mali"></textarea>
+        </div>
     </fieldset>
-</form>
 
-<label for="quantity">Select Quantity</label>
-<select name="quantity" id="quantity">
-    <option value="1">One</option>
-    <option value="2">Two</option>
-    <option value="3">Three</option>
-</select>
-
-<fieldset>
-    <legend>Questions</legend>
-    <label for="browser">What is your favorite internet browser?</label>
-    <select id="browser" name="browser">
-        <option value="chrome">Chrome</option>
-        <option value="firefox">Firefox</option>
-        <option value="edge">Edge</option>
-        <option value="brave">Brave</option>
-        <option value="other">Other</option>
-    </select>
-    <label for="pet">Do you have a household pet?</label>
-    <input type="checkbox" id="pet" name="pet">
-    <label for="places">List the places you have lived:</label>
-    <textarea id="places" name="places" rows="4" placeholder="Stillwater Florida, Amsterdam Netherlands, Timbuktu  Mali"></textarea>
-</fieldset>
-
-<button type="submit">Submit Poll</button>
-
-<div class="form-item">
-  <label for="fullname">Full Name:</label>
-  <input type="text" id="fullname" name="fullname">
-</div>
-
-<div class="form-item label-narrow">
-  <label for="fullname">Full Name:</label>
-  <input type="text" id="fullname" name="fullname">
-</div>
-<div class="form-item label-narrow">
-  <label for="useremail">Email:</label>
-  <input type="email" id="useremail" name="useremail">
-</div>
+    <button type="submit">Submit Poll</button>
+    </form>
+</body>
+</html>
