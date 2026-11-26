@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | White Water Rafting</title>
+    <meta name="description" content="Planning a whitewater rafting adventure or group outing? Reach out to our guides for availability, safety details, and custom trip inquiries.">
+    <meta name="author" content="Student Name">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/z-splash.png" alt="White Water Rafting company logo">
+        <nav aria-label="Main">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="company-header">
+            <h1>White Water RAfting Company</h1>
+            <p>123 Main River Street</p>
+            <p>Kolob, California</p>
+            <p>+1 999 999 9999</p>
+            <p>info@whitewater.com</p>
+        </section>
+
+        <section class="contact-main-grid">
+            <div class="map-container">
+                <iframe
+                    src="https://www.google.com/maps"
+                    width="450"
+                    height="420"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                    title="Map to White Water Rafting Company">
+                </iframe>
+            </div>
+
+        <form class="contact-form" action="#" method="post">
+            <!-- Row 1: Name -->
+             <div class="form-row">
+                <label for="user-name">Name</label>
+                <input type="text" id="user-name" name="user-name" placeholder="Placeholder" required>
+             </div>
+
+            <!-- Row 2: Email -->
+             <div class="form-row">
+                <label for="user-email">Email</label>
+                <input type="email" id="user-email" placeholder="Placeholder" required>
+             </div>
+
+            <!-- Row  3: Message area -->
+             <div class="form-row purpose-row">
+                <span class="group-label" id="purpose-label">Message<br>Purpose</span>
+                <div class="radio-group" role="radiogroup" aria-labelledby="purpose-label">
+                    <label for="purpose-general">
+                        <input type="radio" id="purpose=-general" name="purpose" value="General Inquiry" required>
+                        General Inquiry
+                    </label>
+                    <label for="purpose-reservation">
+                        <input type="radio" id="purpose-reservation" name="purpose" value="Reservation Question">
+                        Reservation Question
+                    </label>
+                    <label for="purpose-suggestion">
+                        <input for="purpose-suggestion" name="purpose" value="Website Suggestion">
+                        Website Suggestion
+                    </label>
+                </div>
+             </div>
+
+             <!-- Row 4: Label Above Textarea -->
+              <div class="form-stack">
+                    <label for="user-message">Message</label>
+                    <textarea id="user-message" name="user-message" rows="4" placeholder="Type here" required></textarea>
+              </div>
+
+              <!-- Row 5: Newsletter Checkbox -->
+                <label class="checkbox-row" for="newsletter">
+                    <input type="checkbox" id="newsletter" name="newsletter" value="subscribe">
+                        Please subscribe to the monthly newsletter
+                </label>
+
+                <!-- Row 6: Submit button -->
+                 <button type="submit" class="submit-btn">Get in Touch!</button>
+        </form>
+    </section>
+
+    <!-- Employee Profiles -->
+     <section class="employees-section">
+        <h2>Meet Your Adventure Team</h2>
+        <div class="employee-grid">
+            <figure>
+                img src= "images/employee-1.webp" alt="Robby Vance, Lead River Guide" width="180" height="180">
+                <figcaption>Robby Vance — Lead River Guide</figcaption>
+            </figure>
+            <figure>
+                img src= "images/employee-2.webp" alt="Stella Miller, Operations Manager" width="180" height="180">
+                <figcaption>Stella Miller — Operations Manager</figcaption>
+            </figure>
+            <figure>
+                img src= "images/employee-3.webp" alt="Emmet Smith, Guest Coordinator" width="180" height="180">
+                <figcaption>Emmet Smith — Guest Coordinator</figcaption>
+            </figure>
+        </div>
+     </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2026 White Water Rafting, Student Name</p>
+        <nav class="socialmedia" aria-label="Social media">
+            <a href="https://www.facebook.com/">
+                <img src="images/facebook.svg" alt="Facebook icon">
+            </a>
+            <a href="https://www.instagram.com/">
+                <img src="images/instagram.svg" alt="Instagram icon">
+            </a>
+            <a href="https://www.tiktok.com/en/">
+                <img src="images/tiktok.svg" alt="Tiktok icon">
+            </a>
+        </nav>
+    </footer>
+</body>
+
+</html>
