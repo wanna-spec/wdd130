@@ -25,7 +25,7 @@
 
     <main>
         <section class="company-header">
-            <h1>White Water RAfting Company</h1>
+            <h1>White Water Rafting Company</h1>
             <p>123 Main River Street</p>
             <p>Kolob, California</p>
             <p>+1 999 999 9999</p>
@@ -35,7 +35,7 @@
         <section class="contact-main-grid">
             <div class="map-container">
                 <iframe
-                    src="https://www.google.com/maps"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50819.72855052656!2d-113.2512!3d37.4526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80ca8d360b511d37%3A0x6c6e49e8a93f94a8!2sKolob%20Canyons!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus"
                     width="450"
                     height="420"
                     allowfullscreen=""
@@ -55,7 +55,7 @@
             <!-- Row 2: Email -->
              <div class="form-row">
                 <label for="user-email">Email</label>
-                <input type="email" id="user-email" placeholder="Placeholder" required>
+                <input type="email" id="user-email" name="user-email" placeholder="Placeholder" required>
              </div>
 
             <!-- Row  3: Message area -->
@@ -63,7 +63,7 @@
                 <span class="group-label" id="purpose-label">Message<br>Purpose</span>
                 <div class="radio-group" role="radiogroup" aria-labelledby="purpose-label">
                     <label for="purpose-general">
-                        <input type="radio" id="purpose=-general" name="purpose" value="General Inquiry" required>
+                        <input type="radio" id="purpose-general" name="purpose" value="General Inquiry" required>
                         General Inquiry
                     </label>
                     <label for="purpose-reservation">
@@ -71,7 +71,7 @@
                         Reservation Question
                     </label>
                     <label for="purpose-suggestion">
-                        <input for="purpose-suggestion" name="purpose" value="Website Suggestion">
+                        <input type="radio" id="purpose-suggestion" name="purpose" value="Website Suggestion">
                         Website Suggestion
                     </label>
                 </div>
@@ -86,7 +86,7 @@
               <!-- Row 5: Newsletter Checkbox -->
                 <label class="checkbox-row" for="newsletter">
                     <input type="checkbox" id="newsletter" name="newsletter" value="subscribe">
-                        I will subscribe to the monthly newsletter
+                        Please subscribe me to the monthly newsletter
                 </label>
 
                 <!-- Row 6: Submit button -->
