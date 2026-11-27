@@ -318,5 +318,89 @@ footer p {
 }
 
 .purpose-row {
-    align-items
+    align-items: start;
+}
+
+.form-row label, .group-label, .form-stack label {
+    font-weight: 600;
+    color: #1a202c;
+}
+
+.radio-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.45rem;
+}
+
+.radio-group label, .check-row {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.form-stack {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+}
+
+.contact-form input[type="text"], .contact-form input[type="email"], .contact-form textarea {
+    width: 100%;
+    padding: 0.5rem 0.65rem;
+    font: inherit;
+    color: #1a202c;
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+}
+
+/* submit button */
+.submit-btn {
+    width: 100%;
+    padding: 0.7rem 1rem;
+    background-color: #0b4f6c;
+    color: #FFFFFF;
+    font: inherit;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.submit-btn:hover, .submit-btn:focus {
+    background-color: #08384d;
+}
+
+/* employee box */
+.employees-section {
+    background-color: #f4f4f6;
+    padding: 1.5rem 1rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.employees-section h2 {
+    margin-top: 0;
+    margin-top: 1.25rem;
+}
+
+.employee-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.employee-grid figure {
+    margin: 0;
+}
+
+.employee-grid img {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.employee-grid figcaption {
+    margin-top: 0.5rem;
+    font-weight: 600;
 }
